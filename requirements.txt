@@ -1,0 +1,3 @@
+cryptography>=3.4
+requests>=2.20
+watchdog>=2.0        # 可选：不装则退化为定时扫描模式
