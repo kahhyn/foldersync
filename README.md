@@ -1,4 +1,4 @@
-# foldersync —— 自己写的两机文件夹同步工具
+# foldersync —— 两机文件夹同步工具
 
 在两台**不在同一局域网**的电脑之间同步一个文件夹（比如桌面的 `apply offer`）。
 同步引擎是本目录下的 `foldersync.py`，端到端加密，传输通道可插拔。
@@ -115,3 +115,11 @@ remote_dir = '\\对方电脑名\共享文件夹\foldersync-offer'
 - **想同步第二组文件夹**：复制一份 `config.toml`（改 `profile`、`local_folder`、远端 url
   末尾路径），用 `--config` 指定它再装一个计划任务。
 - **怀疑没同步**：先 `python foldersync.py once`，再看日志；或 `check` 测连接。
+
+## 下一步计划
+
+只是列出来，能不能想push AI 做就不一定了hhh :)
+- 优化界面
+- 可以自定义哪些文件不同步
+- 可以多个文件夹同步
+
